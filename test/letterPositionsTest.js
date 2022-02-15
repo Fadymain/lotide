@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-let letterPositions = require('../letterPositions');
+const letterPositions = require('../letterPositions');
 
 describe("letterPsitions", () => {
   it("should return the position of each letter in the string in an array", () => {
